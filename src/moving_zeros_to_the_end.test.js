@@ -18,4 +18,7 @@ describe('US-2', () => {
   it('Given the array "[1, 2]" When I move zeros Then the result is "[1, 2]"', () => {
     expect(moveZeros([1, 2])).toStrictEqual([1, 2]);
   });
+  it('Given the array "[0, 0]" When I move zeros Then the result is "[0, 0]"', () => {
+    expect(moveZeros([0, 0])).toStrictEqual([0, 0]);
+  });
 });
