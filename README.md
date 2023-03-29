@@ -50,3 +50,13 @@ Then the result is [1, 2]
 Given the array [0, 0]
 When I move zeros
 Then the result is [0, 0]
+
+### US-3
+As a zero mover
+I want to move the zeros to the end of the array
+So that my 3 item array will have a zero at the end
+
+#### UAT-3.1
+Given the array [0, 0, 1]
+When I move zeros
+Then the result is [1, 0, 0]
