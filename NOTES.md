@@ -19,4 +19,5 @@
 ### Pomodoro 2
 1. ✅ UAT-3.1
 2. ✅ UAT-3.2
-3. 🚧 UAT-3.3
+3. ✅ UAT-3.3
+4. ✅ refactor
