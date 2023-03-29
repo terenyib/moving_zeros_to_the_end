@@ -26,6 +26,11 @@ Given the array [1]
 When I move zeros
 Then the result is [1]
 
+#### UAT-1.3
+Given the array [false]
+When I move zeros
+Then the result is [false]
+
 ### US-2
 As a zero mover
 I want to move the zeros to the end of the array
