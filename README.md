@@ -37,11 +37,16 @@ I want to move the zeros to the end of the array
 So that my 2 item array will have a zero at the end
 
 #### UAT-2.1
+Given the array [0, 1]
+When I move zeros
+Then the result is [1, 0]
+
+#### UAT-2.2
 Given the array [1, 2]
 When I move zeros
 Then the result is [1, 2]
 
-#### UAT-2.2
-Given the array [0, 1]
+#### UAT-2.3
+Given the array [0, 0]
 When I move zeros
-Then the result is [1, 0]
+Then the result is [0, 0]
