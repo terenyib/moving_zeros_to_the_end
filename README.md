@@ -60,3 +60,13 @@ So that my 3 item array will have a zero at the end
 Given the array [0, 0, 1]
 When I move zeros
 Then the result is [1, 0, 0]
+
+#### UAT-3.2
+Given the array [0, 2, 0]
+When I move zeros
+Then the result is [2, 0, 0]
+
+#### UAT-3.3
+Given the array [0, 3, 1]
+When I move zeros
+Then the result is [3, 1, 0]
